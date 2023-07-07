@@ -1,0 +1,110 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.4  0.2 160112  9364 ?        Ss   10:37   0:06 /sbin/init vga ask
+root         2  0.0  0.0      0     0 ?        S    10:37   0:00 [kthreadd]
+root         6  0.0  0.0      0     0 ?        I<   10:37   0:00 [mm_percpu_wq]
+root         7  0.0  0.0      0     0 ?        S    10:37   0:00 [ksoftirqd/0]
+root         8  0.0  0.0      0     0 ?        I    10:37   0:00 [rcu_sched]
+root         9  0.0  0.0      0     0 ?        I    10:37   0:00 [rcu_bh]
+root        10  0.0  0.0      0     0 ?        S    10:37   0:00 [migration/0]
+root        11  0.0  0.0      0     0 ?        S    10:37   0:00 [watchdog/0]
+root        12  0.0  0.0      0     0 ?        S    10:37   0:00 [cpuhp/0]
+root        13  0.0  0.0      0     0 ?        S    10:37   0:00 [cpuhp/1]
+root        14  0.0  0.0      0     0 ?        S    10:37   0:00 [watchdog/1]
+root        15  0.0  0.0      0     0 ?        S    10:37   0:00 [migration/1]
+root        16  0.0  0.0      0     0 ?        S    10:37   0:00 [ksoftirqd/1]
+root        18  0.0  0.0      0     0 ?        I<   10:37   0:00 [kworker/1:0H]
+root        19  0.0  0.0      0     0 ?        S    10:37   0:00 [kdevtmpfs]
+root        20  0.0  0.0      0     0 ?        I<   10:37   0:00 [netns]
+root        21  0.0  0.0      0     0 ?        S    10:37   0:00 [rcu_tasks_kthre]
+root        22  0.0  0.0      0     0 ?        S    10:37   0:00 [kauditd]
+root        25  0.0  0.0      0     0 ?        S    10:37   0:00 [khungtaskd]
+root        26  0.0  0.0      0     0 ?        S    10:37   0:00 [oom_reaper]
+root        27  0.0  0.0      0     0 ?        I<   10:37   0:00 [writeback]
+root        28  0.0  0.0      0     0 ?        S    10:37   0:00 [kcompactd0]
+root        29  0.0  0.0      0     0 ?        SN   10:37   0:00 [ksmd]
+root        30  0.0  0.0      0     0 ?        SN   10:37   0:00 [khugepaged]
+root        31  0.0  0.0      0     0 ?        I<   10:37   0:00 [crypto]
+root        32  0.0  0.0      0     0 ?        I<   10:37   0:00 [kintegrityd]
+root        33  0.0  0.0      0     0 ?        I<   10:37   0:00 [kblockd]
+root        35  0.0  0.0      0     0 ?        I<   10:37   0:00 [ata_sff]
+root        36  0.0  0.0      0     0 ?        I<   10:37   0:00 [md]
+root        37  0.0  0.0      0     0 ?        I<   10:37   0:00 [edac-poller]
+root        38  0.0  0.0      0     0 ?        I<   10:37   0:00 [devfreq_wq]
+root        39  0.0  0.0      0     0 ?        I<   10:37   0:00 [watchdogd]
+root        40  0.0  0.0      0     0 ?        I    10:37   0:00 [kworker/u4:1]
+root        41  0.0  0.0      0     0 ?        S    10:37   0:00 [kswapd0]
+root        42  0.0  0.0      0     0 ?        I<   10:37   0:00 [kworker/u5:0]
+root        43  0.0  0.0      0     0 ?        S    10:37   0:00 [ecryptfs-kthrea]
+root        85  0.0  0.0      0     0 ?        I<   10:37   0:00 [kthrotld]
+root        86  0.0  0.0      0     0 ?        I<   10:37   0:00 [acpi_thermal_pm]
+root        93  0.0  0.0      0     0 ?        I<   10:37   0:00 [ipv6_addrconf]
+root       102  0.0  0.0      0     0 ?        I<   10:37   0:00 [kstrp]
+root       119  0.0  0.0      0     0 ?        I<   10:37   0:00 [charger_manager]
+root       180  0.0  0.0      0     0 ?        S    10:37   0:00 [scsi_eh_0]
+root       181  0.0  0.0      0     0 ?        I<   10:37   0:00 [scsi_tmf_0]
+root       182  0.0  0.0      0     0 ?        S    10:37   0:00 [scsi_eh_1]
+root       183  0.0  0.0      0     0 ?        I<   10:37   0:00 [scsi_tmf_1]
+root       186  0.0  0.0      0     0 ?        I<   10:37   0:00 [kworker/1:1H]
+root       187  0.0  0.0      0     0 ?        I<   10:37   0:00 [ttm_swap]
+root       302  0.0  0.0      0     0 ?        I<   10:37   0:00 [raid5wq]
+root       365  0.0  0.0      0     0 ?        I<   10:37   0:00 [ext4-rsv-conver]
+root       380  0.0  0.0      0     0 ?        I    10:37   0:00 [kworker/u4:4]
+root       384  0.0  0.0      0     0 ?        I<   10:37   0:00 [kworker/0:1H]
+root       443  0.0  1.2 143880 47644 ?        S<s  10:38   0:00 /lib/systemd/systemd-journald
+root       463  0.0  0.0      0     0 ?        I<   10:38   0:00 [iscsi_eh]
+root       464  0.0  0.0  97712  1880 ?        Ss   10:38   0:00 /sbin/lvmetad -f
+root       466  0.0  0.0      0     0 ?        I<   10:38   0:00 [ib-comp-wq]
+root       467  0.0  0.0      0     0 ?        I<   10:38   0:00 [ib-comp-unb-wq]
+root       468  0.0  0.0      0     0 ?        I<   10:38   0:00 [ib_mcast]
+root       469  0.0  0.0      0     0 ?        I<   10:38   0:00 [ib_nl_sa_wq]
+root       470  0.6  0.1  49104  7240 ?        Ss   10:38   0:09 /lib/systemd/systemd-udevd
+root       471  0.0  0.0      0     0 ?        I<   10:38   0:00 [rdma_cm]
+root       501  0.0  0.0      0     0 ?        S<   10:38   0:00 [loop0]
+root       504  0.0  0.0      0     0 ?        S<   10:38   0:00 [loop1]
+root       505  0.0  0.0      0     0 ?        S<   10:38   0:00 [loop2]
+root       506  0.0  0.0      0     0 ?        S<   10:38   0:00 [loop3]
+root       507  0.0  0.0      0     0 ?        S<   10:38   0:00 [loop4]
+root       508  0.0  0.0      0     0 ?        S<   10:38   0:00 [loop5]
+root       509  0.0  0.0      0     0 ?        S<   10:38   0:00 [loop6]
+root       510  0.0  0.0      0     0 ?        S<   10:38   0:00 [loop7]
+root       512  0.0  0.0      0     0 ?        S<   10:38   0:00 [loop8]
+root       513  0.0  0.0      0     0 ?        S<   10:38   0:00 [loop9]
+root       514  0.0  0.0      0     0 ?        S<   10:38   0:00 [loop10]
+root       515  0.0  0.0      0     0 ?        S<   10:38   0:00 [loop11]
+root       516  0.0  0.0      0     0 ?        S<   10:38   0:00 [loop12]
+root       517  0.0  0.0      0     0 ?        S<   10:38   0:00 [loop13]
+root       518  0.0  0.0      0     0 ?        S<   10:38   0:00 [loop14]
+root       519  0.0  0.0      0     0 ?        S<   10:38   0:00 [loop15]
+root       520  0.0  0.0      0     0 ?        S<   10:38   0:00 [loop16]
+root       521  0.0  0.0      0     0 ?        S<   10:38   0:00 [loop17]
+root       522  0.0  0.0      0     0 ?        S<   10:38   0:00 [loop18]
+root       523  0.0  0.0      0     0 ?        S<   10:38   0:00 [loop19]
+root       688  0.0  0.0      0     0 ?        I<   10:38   0:00 [cfg80211]
+root       960  0.0  0.4 171084 17636 ?        Ssl  10:38   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root       961  0.0  0.2 434320  9472 ?        Ssl  10:38   0:00 /usr/sbin/ModemManager --filter-policy=strict
+root       979  0.0  0.4 1026084 17168 ?       Ssl  10:38   0:00 /usr/sbin/NetworkManager --no-daemon
+root       990  0.0  0.0   4560   788 ?        Ss   10:38   0:00 /usr/sbin/acpid
+root       991  0.0  0.1  70600  5732 ?        Ss   10:38   0:00 /lib/systemd/systemd-logind
+root       997  0.0  0.0  31324  3136 ?        Ss   10:38   0:00 /usr/sbin/cron -f
+root      1000  0.0  0.0 110420  2088 ?        Ssl  10:38   0:00 /usr/sbin/irqbalance --foreground
+root      1001  0.0  0.0 309752  2428 ?        Ssl  10:38   0:00 /usr/bin/lxcfs /var/lib/lxcfs/
+root      1011  0.2  1.0 897336 39568 ?        Ssl  10:38   0:03 /usr/lib/snapd/snapd
+daemon    1013  0.0  0.0  28336  2388 ?        Ss   10:38   0:00 /usr/sbin/atd -f
+root      1014  0.0  0.1  45504  7524 ?        Ss   10:38   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root      1042  0.0  0.1 288884  6384 ?        Ssl  10:38   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root      1257  0.0  0.5 187244 19976 ?        Ssl  10:38   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root      1350  0.0  0.0      0     0 ?        I<   10:38   0:00 [kworker/0:2H]
+root      1557  0.0  0.1  72304  5580 ?        Ss   10:38   0:00 /usr/sbin/sshd -D
+root      1561  0.0  0.0      0     0 ?        I    10:38   0:00 [kworker/1:3]
+root      2601  0.0  0.1  80860  3868 tty1     Ss   10:40   0:00 /bin/login -p --
+root      2928  0.0  0.0  80860  3632 tty2     Ss   10:42   0:00 /bin/login -p --
+root      3181  0.0  0.2 100600  8036 ?        Ss   10:43   0:00 /usr/sbin/cupsd -l
+root      3182  0.0  0.2 303544 10712 ?        Ssl  10:43   0:00 /usr/sbin/cups-browsed
+root      3289  0.0  0.0      0     0 ?        I    10:44   0:00 [kworker/1:0]
+root      3358  0.0  0.0  80860  3664 tty3     Ss   10:47   0:00 /bin/login -p --
+root      3516  0.0  0.0      0     0 ?        I    10:49   0:00 [kworker/0:0]
+root      3542  0.0  0.0      0     0 ?        I    10:50   0:00 [kworker/0:3]
+root      3672  0.0  0.0      0     0 ?        I    10:55   0:00 [kworker/0:1]
+root      3715  0.0  0.0      0     0 ?        I    10:59   0:00 [kworker/u4:0]
+root      3721  0.0  0.0      0     0 ?        I    10:59   0:00 [kworker/0:2]
+root      3766  0.0  0.0      0     0 ?        I    11:01   0:00 [kworker/1:1]
